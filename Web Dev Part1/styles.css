@@ -135,7 +135,7 @@ h2 {
 }
 
 .confirmation .send-button {
-    background: #2980b9;
+    background: #2980b9; /*bacground color of button*/
     color: white;
     padding: 10px 20px;
     border: none;
@@ -145,6 +145,16 @@ h2 {
 .confirmation .send-button:hover {
     background: #3498db;
 }
+
+/*Responsive adjustments*/
+@media (max-width:600px){
+    main{
+        padding: 20px; /*padding on main content on small screens*/
+        margin: 10px;   /*margin on the sides for main content*/
+
+    }
+}
+
 
 footer {
     background: #34495e; /*color of the button*/
