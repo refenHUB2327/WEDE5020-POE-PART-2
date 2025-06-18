@@ -166,3 +166,27 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/*styling for the Enquire page*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #111111);
+    color: #e0e0e0;
+    margin: 0;
+    padding: 32px 16px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .container {
+    max-width: 900px;
+    background: rgba(24, 24, 24, 0.85);
+    backdrop-filter: saturate(180%) blur(14px);
+    border-radius: 16px;
+    border: 1px solid rgba(140,140,140,0.15);
+    box-shadow: 0 4px 30px rgba(0,0,0,0.7);
+    padding: 40px 48px;
+    color: #c8e6c9;
+  }
